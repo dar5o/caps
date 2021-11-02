@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "NODE_ENV=test jest --coverage --silent",
-    "start": "NODE_ENV=production node caps.js"
+    "start": "NODE_ENV=production node hub.js"
   },
   "repository": {
     "type": "git",
