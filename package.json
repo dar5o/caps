@@ -1,0 +1,27 @@
+{
+  "name": "caps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test jest --coverage --silent",
+    "start": "NODE_ENV=production node hub.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dar5o/caps.git"
+  },
+  "keywords": [],
+  "author": "Dario V",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dar5o/caps/issues"
+  },
+  "homepage": "https://github.com/dar5o/caps#readme",
+  "devDependencies": {
+    "eslint": "^8.1.0",
+    "eslint-plugin-jest": "^25.2.2",
+    "jest": "^27.3.1",
+    "faker": "^5.5.3"
+  }
+}
