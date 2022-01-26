@@ -18,10 +18,12 @@
     "url": "https://github.com/dar5o/caps/issues"
   },
   "homepage": "https://github.com/dar5o/caps#readme",
-  "devDependencies": {
-    "eslint": "^8.1.0",
-    "eslint-plugin-jest": "^25.2.2",
+  "dependencies": {
+    "express": "^4.17.1",
+    "faker": "^5.5.3",
     "jest": "^27.3.1",
-    "faker": "^5.5.3"
+    "socket.io": "^4.3.1",
+    "socket.io-client": "^4.3.2",
+    "supertest": "^6.1.6"
   }
 }
